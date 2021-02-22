@@ -446,6 +446,10 @@ branch-protection:
           required_status_checks:
             contexts:
             - Kubespray CI Pipeline
+        kui:
+          required_status_checks:
+            contexts:
+            - continuous-integration/travis-ci
         nfs-subdir-external-provisioner:
           branches:
             gh-pages:
